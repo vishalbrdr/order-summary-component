@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: #e0e8ff;
+  min-height: 100vh;
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-size: contain;
+  }
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.card {
+  border-radius: 1.6rem;
+  width: 90%;
+  max-width: 45rem;
+  background-color: white;
+  box-shadow: 0 2rem 2rem -0.7rem rgba(31, 47, 86, 0.15);
+}
+
+.card [alt="illustration-hero"] {
+  border-top-left-radius: 1.6rem;
+  border-top-right-radius: 1.6rem;
+  width: 100%;
+}
+
+.content {
+  padding: 3.5rem 4rem;
+  font-size: 1.6rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content h1 {
+  margin-bottom: 1rem;
+  font-size: 2.6rem;
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+.content p {
+  width: 80%;
+  color: #7280a7;
+  margin-bottom: 2rem;
+}
+
+.content .box {
+  margin-bottom: 2rem;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1.6rem 2.5rem;
+  background-color: #f5f7ff;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.content .box .plan {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: 2rem;
+}
+
+.content .box .plan span:first-of-type {
+  color: #1f2f56;
+  font-weight: 700;
+}
+
+.content .box .plan span:last-of-type {
+  color: #7280a7;
+}
+
+@media screen and (max-width: 400px) {
+  .content .box .plan {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+}
+
+.content .box a {
+  color: #3829e0;
+  font-weight: 700;
+  font-size: 1.4rem;
+  transition: all 300ms;
+}
+
+.content .box a:hover, .content .box a:focus {
+  text-decoration: none;
+  opacity: 0.8;
+  outline: none;
+}
+
+.content .cta {
+  text-decoration: none;
+  background-color: #3829e0;
+  color: #f5f7ff;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 1.5rem 2rem -0.6rem rgba(56, 41, 224, 0.3);
+  transition: opacity 300ms, box-shadow 300ms;
+  margin-bottom: 2rem;
+}
+
+.content .cta:hover, .content .cta:focus {
+  opacity: 0.8;
+  box-shadow: 0rem 1.5rem 2rem -0.6rem rgba(56, 41, 224, 0.6);
+  outline: none;
+}
+
+.content .cancel {
+  text-decoration: none;
+  color: #7280a7;
+  font-weight: 700;
+  transition: 300ms;
+}
+
+.content .cancel:hover, .content .cancel:focus {
+  color: #1f2f56;
+  outline: none;
+}
+
+.attribution {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  color: #1f2f56;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3829e0;
+  font-weight: 700;
+  transition: all 300ms;
+}
+
+.attribution a:hover, .attribution a:focus {
+  text-decoration: none;
+  color: rgba(56, 41, 224, 0.9);
+  outline: none;
+}
