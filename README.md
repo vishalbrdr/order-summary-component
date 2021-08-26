@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/vishalbrdr/order-summary-component](https://github.com/vishalbrdr/order-summary-component)
+- Live Site URL: [https://vigilant-gates-c4be61.netlify.app/](https://vigilant-gates-c4be61.netlify.app/)
 
 ## My process
 
@@ -44,4 +44,4 @@ Users should be able to:
 ## Author
 
 - Frontend Mentor - [@vishalbrdr](https://www.frontendmentor.io/profile/vishalbrdr)
-- Instagram - [@vishal_brdr](https://www.twitter.com/vishal_brdr)
+- Instagram - [@vishal_brdr](https://www.instagram.com/vishal_brdr)
